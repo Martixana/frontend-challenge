@@ -1,13 +1,16 @@
-#wrapper {
+/*#wrapper {
 	width: auto;
 	height: 105px;
 	z-index: -5;
 	text-align:center;
 	background-color: #fff;
-
+}*/
+body{
+	border-left: 30px solid red;
+	border-right: 30px solid red;
+	/*border-bottom: 20px solid red;*/
 }
 .TransHeader{
-	top: -13px;
 	width: auto;
 	height: 130px;
 	background-color: red;
@@ -16,11 +19,23 @@
 	position: absolute;
 	left: 230px;
 	top:65px;
-
-
+	font-family: 'Montserrat', sans-serif;
+	font-weight: medium;
+	font-size: 18px;
+	color: #414C5E;
 }
 
 #voices_rct{
 	display: inline-block;
-	background-color: #ffe6e6;
+	background-color: red;
+	width: 65%;
+	height: 50%;
 }
+
+
+
+/*Google fonts
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+*/
