@@ -1,0 +1,26 @@
+#wrapper {
+	width: auto;
+	height: 105px;
+	z-index: -5;
+	text-align:center;
+	background-color: #fff;
+
+}
+.TransHeader{
+	top: -13px;
+	width: auto;
+	height: 130px;
+	background-color: red;
+}
+.TransHeader h3{
+	position: absolute;
+	left: 230px;
+	top:65px;
+
+
+}
+
+#voices_rct{
+	display: inline-block;
+	background-color: #ffe6e6;
+}
